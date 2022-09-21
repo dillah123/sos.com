@@ -12,7 +12,7 @@ height: 800px;
 height: 100px;
 transform: translateY(50px);
 }
-.line{
+.line{  
 height: 1px;
 width:177px;
 text-align: center;
@@ -28,7 +28,7 @@ transform: translate(600px,10px);
 margin-left: 30px;
 }
 #icon:hover{
-color: rgb(187, 206, 21);
+color: rgb(4, 1, 8);
 
 }
 .nav2{
@@ -63,11 +63,11 @@ list-style: none;
 margin-right: 200px;
 }
 @media only  screen and (max-width:1517px) and (min-width:1340px){
- .nav2{
+.nav2{
 transform: translateX(-100px);
 
- }
- .nav1{
+}
+.nav1{
 transform: translateY(15px);
 }
 .line{
@@ -78,7 +78,7 @@ transform: translateY(-40px);
 @media only  screen and (max-width:1340px) and (min-width:1240px){
 .navli{
 transform: translate(-200px,-100px);
-   
+
 }
 .nav1{
 transform: translateY(15px);
@@ -91,256 +91,286 @@ transform: translate(400px,0px);
 }
 }
 @media only  screen and (max-width:1240px) and (min-width:1140px){
-    .navli{
-    transform: translate(100px,-100px);
-       
-    }
-    .nav1{
-    transform: translateY(15px);
-    }
-    .line{
-    transform: translateY(-40px);
-    }
-    .logo{
-    transform: translate(400px,0px);
-    }
-    }
-    @media only  screen and (max-width:1140px) and (min-width:1040px){
-        .navli{
-        transform: translate(100px,-100px);
-           
-        }
-        .nav1{
-        transform: translateY(15px);
-        }
-        .line{
-        transform: translateY(-40px);
-        }
-        .logo{
-        transform: translate(300px,0px);
-        }
-        }
-        @media only  screen and (max-width:1040px) and (min-width:940px){
-            .navli{
-            transform: translate(100px,-100px);
-               
-            }
-            .nav1{
-            transform: translateY(15px);
-            }
-            .line{
-            transform: translateY(-40px);
-            }
-            .logo{
-            transform: translate(300px,0px);
-            }
-            }
-            @media only  screen and (max-width:940px) and (min-width:740px){
-                .navli{
-                transform: translate(0px,-100px);
-                   
-                }
-                .nav1{
-                transform: translate(-350px,0px);
-                }
-                .line{
-                transform: translate(-350px,-50px);
-                }
-                .logo{
-                transform: translate(200px,0px);
-                }
-                }
-                @media only  screen and (max-width:740px) and (min-width:640px){
-                    .navli{
-                    transform: translate(0px,-50px);
-                       
-                    }
-                    .nav1{
-                    transform: translate(-350px,0px);
-                    }
-                    .nav2{
-                     height: 70px;
-                    
+.navli{
+transform: translate(100px,-100px);
 
-                    }
-                    .line{
-                    transform: translate(-350px,-50px);
-                    }
-                    .logo{
-                    transform: translate(200px,0px);
-                    height: 70px;
-                    width: 70px;
-                    border-radius: 360px;
-                    }
-                    .nava2{
-                       font-size: 10px;
-                      
-                    }
+}
+.nav1{
+transform: translateY(15px);
+}
+.line{
+transform: translateY(-40px);
+}
+.logo{
+transform: translate(400px,0px);
+}
+}
+@media only  screen and (max-width:1140px) and (min-width:1040px){
+.navli{
+transform: translate(100px,-100px);
+
+}
+.nav1{
+transform: translateY(15px);
+}
+.line{
+transform: translateY(-40px);
+}
+.logo{
+transform: translate(300px,0px);
+}
+}
+@media only  screen and (max-width:1040px) and (min-width:940px){
+.navli{
+transform: translate(100px,-100px);
+
+}
+.nav1{
+transform: translateY(15px);
+}
+.line{
+transform: translateY(-40px);
+}
+.logo{
+transform: translate(300px,0px);
+}
+}
+@media only  screen and (max-width:940px) and (min-width:740px){
+.navli{
+transform: translate(0px,-100px);
+
+}
+.nav1{
+transform: translate(-350px,0px);
+}
+.line{
+transform: translate(-350px,-50px);
+}
+.logo{
+transform: translate(200px,0px);
+}
+}
+@media only  screen and (max-width:740px) and (min-width:640px){
+.navli{
+transform: translate(0px,-50px);
+
+}
+.nav1{
+transform: translate(-350px,0px);
+}
+.nav2{
+height: 70px;
 
 
+}
+.line{
+transform: translate(-350px,-50px);
+}
+.logo{
+transform: translate(200px,0px);
+height: 70px;
+width: 70px;
+border-radius: 360px;
+}
+.nava2{
+font-size: 10px;
 
-                    }
-                    @media only  screen and (max-width:640px) and (min-width:540px){
-                        .navli{
-                        transform: translate(0px,-50px);
-                           
-                        }
-                        .nav1{
-                        transform: translate(-350px,0px);
-                        }
-                        .nav2{
-                         height: 50px;
-                        
+}
+
+
+
+}
+@media only  screen and (max-width:640px) and (min-width:540px){
+.navli{
+transform: translate(0px,-50px);
+
+}
+.nav1{
+transform: translate(-350px,0px);
+}
+.nav2{
+height: 50px;
+
+
+}
+.hero{
+background-size: contain;
+
+}
+.line{
+transform: translate(-350px,-50px);
+}
+.logo{
+transform: translate(150px,-0px);
+height: 50px;
+width: 50px;
+border-radius: 360px;
+}
+.nava2{
+font-size: 6px;
+margin-left: 30px;
+
+}
+
+
+
+}
+@media only  screen and (max-width:570px) and (min-width:440px){
+.navli{
+transform: translate(0px,-50px);
+
+}
+.hero{
+    background-size: contain;
     
-                        }
-                        .line{
-                        transform: translate(-350px,-50px);
-                        }
-                        .logo{
-                        transform: translate(150px,-0px);
-                        height: 50px;
-                        width: 50px;
-                        border-radius: 360px;
-                        }
-                        .nava2{
-                           font-size: 6px;
-                           margin-left: 30px;
-                          
-                        }
+    }
+.nav1{
+transform: translate(-350px,0px);
+}
+.nav2{
+height: 50px;
+
+
+}
+.line{
+transform: translate(-350px,-50px);
+}
+.logo{
+transform: translate(150px,-0px);
+height: 50px;
+width: 50px;
+border-radius: 360px;
+}
+.nava2{
+font-size: 6px;
+margin-left: 30px;
+
+}
+
+
+
+}
+@media only  screen and (max-width:570px) and (min-width:340px){
+.navli{
+transform: translate(0px,-40px);
+
+}
+.hero{
+    background-size: contain;
     
+    }
+.nav1{
+transform: translate(-450px,0px);
+}
+.nav2{
+height: 50px;
+width: 500px;
+margin-right: 100px;
+transform: translateX(-130px);
+
+}
+.line{
+transform: translate(-450px,-50px);
+}
+.logo{
+transform: translate(150px,-0px);
+height: 50px;
+width: 50px;
+border-radius: 360px;
+}
+.nava2{
+font-size: 15px;
+margin-left: 30px;
+
+
+}
+
+
+
+}
+@media only  screen and (max-width:470px) and (min-width:340px){
+.navli{
+transform: translate(0px,-40px);
+
+
+}
+.nav1{
+transform: translate(-550px,0px);
+}
+.hero{
+    background-size: contain;
     
+    }
+.nav2{
+height: 50px;
+width: 450px;
+margin-right: 100px;
+transform: translateX(-130px);
+
+}
+.line{
+transform: translate(-550px,-50px);
+}
+.logo{
+transform: translate(150px,-0px);
+height: 50px;
+width: 50px;
+border-radius: 360px;
+}
+.nava2{
+font-size: 10px;
+margin-left: 30px;
+
+
+}
+}
+@media only  screen and (max-width:420px) and (min-width:320px){
+.navli{
+transform: translate(40px,-40px);
+
+
+
+}
+.hero{
+    background-size: contain;
     
-                        }
-                        @media only  screen and (max-width:570px) and (min-width:440px){
-                            .navli{
-                            transform: translate(0px,-50px);
-                               
-                            }
-                            .nav1{
-                            transform: translate(-350px,0px);
-                            }
-                            .nav2{
-                             height: 50px;
-                            
-        
-                            }
-                            .line{
-                            transform: translate(-350px,-50px);
-                            }
-                            .logo{
-                            transform: translate(150px,-0px);
-                            height: 50px;
-                            width: 50px;
-                            border-radius: 360px;
-                            }
-                            .nava2{
-                               font-size: 6px;
-                               margin-left: 30px;
-                              
-                            }
-        
-        
-        
-                            }
-                            @media only  screen and (max-width:570px) and (min-width:340px){
-                                .navli{
-                                transform: translate(0px,-40px);
-                                   
-                                }
-                                .nav1{
-                                transform: translate(-450px,0px);
-                                }
-                                .nav2{
-                                 height: 50px;
-                                width: 500px;
-                                margin-right: 100px;
-                                transform: translateX(-130px);
-            
-                                }
-                                .line{
-                                transform: translate(-450px,-50px);
-                                }
-                                .logo{
-                                transform: translate(150px,-0px);
-                                height: 50px;
-                                width: 50px;
-                                border-radius: 360px;
-                                }
-                                .nava2{
-                                   font-size: 15px;
-                                   margin-left: 30px;
-                                   
-                                  
-                                }
-            
-            
-            
-                                }
-                                @media only  screen and (max-width:470px) and (min-width:340px){
-                                    .navli{
-                                    transform: translate(0px,-40px);
-                        
-                                       
-                                    }
-                                    .nav1{
-                                    transform: translate(-550px,0px);
-                                    }
-                                    .nav2{
-                                     height: 50px;
-                                    width: 450px;
-                                    margin-right: 100px;
-                                    transform: translateX(-130px);
-                
-                                    }
-                                    .line{
-                                    transform: translate(-550px,-50px);
-                                    }
-                                    .logo{
-                                    transform: translate(150px,-0px);
-                                    height: 50px;
-                                    width: 50px;
-                                    border-radius: 360px;
-                                    }
-                                    .nava2{
-                                       font-size: 10px;
-                                       margin-left: 30px;
-                                       
-                                      
-                                    }
-                                }
-                                @media only  screen and (max-width:420px) and (min-width:320px){
-                                    .navli{
-                                    transform: translate(40px,-40px);
-                                    
-                        
-                                       
-                                    }
-                                    .nav1{
-                                    transform: translate(-550px,0px);
-                                    }
-                                    .nav2{
-                                     height: 50px;
-                                    width: 450px;
-                                    margin-right: 100px;
-                                    transform: translateX(-180px);
-                                    margin-right: 300px;
-                                    }
-                                    .line{
-                                    transform: translate(-550px,-50px);
-                                    }
-                                    .logo{
-                                    transform: translate(110px,-0px);
-                                    height: 50px;
-                                    width: 50px;
-                                    border-radius: 360px;
-                                    }
-                                    .nava2{
-                                       font-size: 10px;
-                                       margin-left: 30px;
-                                       
-                                      
-                                    }
-                                }
+    }
+.nav1{
+transform: translate(-550px,0px);
+}
+.nav2{
+height: 50px;
+width: 450px;
+margin-right: 100px;
+transform: translateX(-180px);
+margin-right: 300px;
+}
+.line{
+transform: translate(-550px,-50px);
+}
+.hero{
+background-size: 100%;
+width: 1000px;
+height: 500px;
+
+
+
+
+}
+.logo{
+transform: translate(110px,-0px);
+height: 50px;
+width: 50px;
+border-radius: 360px;
+}
+.nava2{
+font-size: 10px;
+margin-left: 30px;
+
+
+}
+}
+
     
 
 
